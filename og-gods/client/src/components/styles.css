@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    border-block: 0;
+    
+}
+
+.AuthChild{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 100px 200px auto 40px;
+    grid-template-areas:
+        " . . . . . . . n n n n n "
+        " . . . t t t t t t . . . "
+        " c c c c c c c c c c c c "
+        " f f f f f f f f f f f f ";
+    /* display: flex;
+    flex-direction: row-reverse; */
+    
+    
+    
+    /* background-image: url('../shared/og-gods.jpg') */
+}
+.child{
+    width:400px;
+    height:100px;
+    font-size: 12px;
+    padding:10px;
+    border: solid 5px white;
+    
+}
+.homeTitle{
+    grid-area: t;
+    color: white;
+    background-color: rgb(204, 201, 201);
+    opacity: .9;
+    
+    
+   
+}
+.bar{
+    width:100%;
+    height:400px;
+    
+}
+.am{
+    color: rgb(81, 240, 81);
+    margin-left: 10px;
+    margin-top: 23px;
+    font-size: 14px;
+    grid-area: n;
+}
+.btn{
+    text-shadow: 1px 1px 2px #000000;
+    color: rgb(81, 240, 81);
+    margin: 2px;
+    grid-area: n;
+}
+.s{
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 150px;
+    grid-area: n;
+}
+.i{
+    border-radius: 5px;
+    margin: 10px;
+    grid-area: n;
+}
+.pHome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.grow{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 100px 200px auto 40px;
+    grid-template-areas:
+        " n n n n n n n n n n n n "
+        " t t t t t t t t t t t t "
+        " c c c c c c c c c c c c "
+        " f f f f f f f f f f f f ";
+}
